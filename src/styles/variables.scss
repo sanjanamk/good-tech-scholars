@@ -1,0 +1,20 @@
+@import "~carbon-components/scss/globals/scss/import-once";
+@import "~carbon-components/scss/globals/scss/helper-mixins";
+@import "~carbon-components/scss/globals/scss/vars";
+@import "~carbon-components/scss/globals/scss/layout";
+@import "~carbon-components/scss/globals/scss/typography";
+
+$ui-06: #333333;
+$ui-07: #000000;
+$ui-08: #BEBEBE;
+$ui-09: #BB8FFF;
+$ui-10: #F3F3F3;
+$ui-11: #F2F4F8;
+$ibm-gtc--grid-breakpoints: (
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1600px
+);
+

@@ -1,0 +1,11 @@
+//Enable the Plex font family. This MUST be set to `true`.
+$css--plex: true;
+$feature-flags: (
+  grid-columns-16: true,
+);
+body,html{
+	margin: 0;
+	padding: 0;
+}
+@import '~carbon-components/scss/globals/scss/styles';
+@import '~carbon-components/scss/globals/scss/layout';

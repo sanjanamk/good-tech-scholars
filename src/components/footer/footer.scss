@@ -1,0 +1,26 @@
+@import 'src/styles/variables.scss';
+
+.ibm-gtc-footer {
+	background-color: $ui-10;
+	padding: $spacing-05 0 $spacing-05 $spacing-10;
+	display: flex;
+	flex-wrap: wrap;
+	a {
+		margin-right: $spacing-09;
+		@include carbon--type-style('body-short-01');
+		color: $text-01;
+		text-decoration: none;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	@media (max-width: map-get($ibm-gtc--grid-breakpoints, md)) {
+		justify-content: space-between;
+		a {
+			&.bx--link {
+				width: 20%;
+				margin: $spacing-03 $spacing-01;
+			}
+		}
+	}
+}

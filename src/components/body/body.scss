@@ -1,0 +1,46 @@
+@import 'src/styles/variables.scss';
+
+.ibm-gtc-body {
+
+	@media (max-width: map-get($ibm-gtc--grid-breakpoints, md)) {
+		.bx--col-sm-* {
+			margin-top: $spacing-03;
+		}
+	}
+
+	.ibm-gtc-page-padding {
+		padding-left: $spacing-07;
+	}
+	.bx--row {
+		margin: auto 0;
+	}
+
+	.ibm-gtc-body-tabs {
+		display: flex;
+		background-color: $ui-05;
+		min-height: 4rem;
+		.bx--tabs--scrollable__nav-item {
+			background-color: $ui-05;
+			box-shadow: none !important;
+			.bx--tabs--scrollable__nav-link {
+				color: $text-04;
+				line-height: 1rem;
+				padding: $spacing-05;
+				height: 4rem;
+			}
+		}
+	}
+	.bx--tabs--scrollable.bx--tabs--scrollable--container .bx--tabs--scrollable__nav-item--selected .bx--tabs--scrollable__nav-link {
+		box-shadow: none;
+	}
+	.bx--tabs--scrollable.bx--tabs--scrollable--container .bx--tabs--scrollable__nav-item--selected, 
+	.bx--tabs--scrollable.bx--tabs--scrollable--container .bx--tabs--scrollable__nav-item--selected:hover {
+		background-color: $ui-06;
+	}
+	.bx--tabs--scrollable.bx--tabs--scrollable--container .bx--tabs--scrollable__nav-item:hover {
+		background-color: $ui-06;
+	}
+	.bx--tab-content {
+		padding: 0;
+	}
+}
