@@ -70,6 +70,7 @@
 		.bx--accordion__content {
 			min-height: 11rem;
 			@include carbon--type-style('body-short-02');
+			padding-bottom: 0;
 		}
 	}
 }
