@@ -2,6 +2,7 @@ import React, { useContext, useRef, useEffect, useState } from 'react';
 import { Tabs, Tab } from 'carbon-components-react';
 import localeContext from '../../context/localeContext';
 import Program from "./program";
+import Theme from "./theme";
 import Contact from "./contact";
 import KnowAboutIBM from './knowmore';
 import LearningOppurtunity from './learning';
@@ -54,6 +55,9 @@ export default function Body() {
 			</Tabs>
 			<div className="ibm-gtc-program-container" ref={refObject.themes}>
 				<Program />
+			</div>
+			<div className="ibm-gtc-theme-container">
+				<Theme />
 			</div>
 			<div className="ibm-gtc-knowmore-container">
 				<KnowAboutIBM />

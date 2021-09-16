@@ -40,7 +40,30 @@ export const ISLGTS = {
 		"header": "Good Tech Scholars",
 		"desc": "This program will empower you with Industry and professional skills through online learning and hands-on experience to build and present code based solution to a panel of judges. The program culminates with a celebration of all the skills you have acquired and prepare you for Software Product Engineering careers.",
 		"prgdates": "Program Dates",
-		"dates": "September 27,2021 - September 29, 2021"
+		"dates": "September 29,2021 - October 01, 2021"
+	},
+	"theme": {
+		"title": "Program Theme",
+		"text": "We have 2 themes and outline of problem statements in each of the themes.\nStudents can choose any one problem from any one of the theme and participate in the Hackathon.",
+		"themes": [
+			{
+				"title": "Sustainable development for a better tomorrow",
+				"img": "sustainable",
+				"desc": "Smart applications that can aid sustainable development goals that balances use of natural resources and green technologies with urbanization, agricultural, and industrial needs.\n" +
+				"Sample problems / Sub-themes:\n" +
+				"- Improved monitoring and management of traffic (e.g. city traffic, drone traffic)\n" +
+				"- Improved monitoring and management of natural resources (e.g. smart cities, smart homes)\n" +
+				"- Urban expansion and service planning - sustainable communities"
+			},
+			{
+				"title": "Digital transformation for social change",
+				"img": "digital",
+				"desc": "Unlock data and insights to transform user experiences, make services accessible, improve transparency, and assist stakeholder decision-making.\n" +
+				"Sample problems / Sub-themes:\n" +
+				"- Easier access to services in local language (e.g. railway reservation, RTO services)\n" +
+				"- Low technology barrier and work over mobile (e.g. managing informal workers, dealing with health / security emergencies)"
+			}
+		]
 	},
 	"about": {
 		"knowMore": "Know more about IBM",
@@ -130,26 +153,26 @@ export const ISLGTS = {
 				"img": "anbumunee",
 				"name": "Anbumunee Ponniah",
 				"social": "linkedin",
-				"link": ""
+				"link": "https://www.linkedin.com/in/anbumunee-p-0447b5/"
 
 			},
 			{
 				"img": "srini",
 				"name": "Srinivasan S Muthuswamy",
 				"social": "linkedin",
-				"link": ""
+				"link": "https://www.linkedin.com/in/srinivasan-muthuswamy-6004065/"
 			},
 			{
 				"img": "charlay",
 				"name": "Charly Kurian",
 				"social": "linkedin",
-				"link": ""
+				"link": "https://www.linkedin.com/in/charlykurian"
 			},
 			{
 				"img": "george",
 				"name": "George Oommen",
 				"social": "linkedin",
-				"link": ""
+				"link": "https://www.linkedin.com/in/george-oommen-902752/"
 			}, 
 			{
 				"img": "madhuri",
