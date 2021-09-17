@@ -2,33 +2,37 @@
 
 //program
 .ibm-gtc-program {
-	height: 14rem;
+	min-height: 14rem;
 	background: $ui-10;
-	padding: $spacing-09 0;
 	.ibm-gtc-program-col1 {
+		padding: $spacing-09 0;
 		@include carbon--type-style('productive-heading-02');
 	}
-	.ibm-gtc-program-col2-title {
-		@include carbon--type-style('productive-heading-04');
-		padding-bottom: $spacing-05;
+	.ibm-gtc-program-col2 {
+		padding: $spacing-09 0;
+		.ibm-gtc-program-col2-title {
+			@include carbon--type-style('productive-heading-04');
+			padding-bottom: $spacing-05;
+		}
 	}
-	.ibm-gtc-program-col3 {
-		background-color: $ui-12;
-		color: $text-04;
-		padding: $spacing-09;
-		margin-top: -$spacing-09;
-		width: 31.2rem;
-		height: 14rem;
-		svg {
-			height: 46px;
-    		width: 46px;
-		}
-		.ibm-gtc-program-col3-title {
-			@include carbon--type-style('productive-heading-02');
-			padding: $spacing-05 0 $spacing-03;
-		}
-		.ibm-gtc-program-col3-dates {
-			@include carbon--type-style('productive-heading-03');
+	.ibm-gtc-program-col3-container {
+		padding-right: 0;
+		.ibm-gtc-program-col3 {
+			background-color: $ui-12;
+			color: $text-04;
+			padding: $spacing-09 0 $spacing-09 10%;
+			height: 100%;
+			svg {
+				height: 46px;
+				width: 46px;
+			}
+			.ibm-gtc-program-col3-title {
+				@include carbon--type-style('productive-heading-02');
+				padding: $spacing-05 0 $spacing-03;
+			}
+			.ibm-gtc-program-col3-dates {
+				@include carbon--type-style('productive-heading-03');
+			}
 		}
 	}
 }
@@ -44,12 +48,12 @@
 		@include carbon--type-style('productive-heading-02');
 	}
 	.ibm-gtc-theme-text {
-		white-space: pre;
+		white-space: break-spaces;
 		@include carbon--type-style('body-short-02');
 		padding-bottom: $spacing-07;
 	}
 	.bx--accordion__item {
-		display: inline-grid;
+		display: inline-table;
     	width: 45%;
 		border-left: 1px solid $ui-07;
 		border-top: none;

@@ -29,6 +29,15 @@
 				height: 4rem;
 			}
 		}
+		.bx--tabs__overflow-indicator--right {
+			background-image: none;
+		}
+		.bx--tab--overflow-nav-button {
+			background-color: $ui-05;
+			svg {
+				fill: $text-04;
+			}
+		}
 	}
 	.bx--tabs--scrollable.bx--tabs--scrollable--container .bx--tabs--scrollable__nav-item--selected .bx--tabs--scrollable__nav-link {
 		box-shadow: none;

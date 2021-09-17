@@ -4,9 +4,10 @@ export const ISLGTS = {
 		"subtitle": "Good Tech Scholars",
 		"content": "Good Tech Scholars is a virtual program that enables college students to develop industry skills through hands‐on experience, workshops, and projects. IBM India software Labs (ISL) experts will guide the students to collaborate in solving real‐world challenges using digital technologies, professional skills, and more.",
 		"button": {
-			"text": "Register",
+			"text": "Register Now",
 			"link": "https://docs.google.com/forms/d/11_jSwehMzajshskVuXDMbZIeDvG6DKaz9Fn-9614wBU/viewform?edit_requested=true"
-		}
+		},
+		"warning": "Registration closes on September 23, 2021"
 	},
 	"tabs": [
 		{
@@ -224,9 +225,21 @@ export const ISLGTS = {
 			},
 			{
 				"img": "shweta",
-				"name": "Shweta",
+				"name": "Shweta Shandilya",
 				"social": "linkedin",
 				"link": "https://www.linkedin.com/in/shweta-shandilya-19a76414/"
+			},
+			{
+				"img": "sanjana",
+				"name": "Sanjana Mallikarjuna",
+				"social": "linkedin",
+				"link": "https://www.linkedin.com/in/sanjana-mallikarjuna/"
+			},
+			{
+				"img": "rakesh",
+				"name": "Rakesh Addepalle",
+				"social": "linkedin",
+				"link": "https://www.linkedin.com/in/rakesh-addepalle-429b78108/"
 			}
 		]
 	},
@@ -254,7 +267,7 @@ export const ISLGTS = {
 					},
 					{
 						"question": "Who should I contact with questions, comments, or concerns?",
-						"answer": "Please direct all inquiries about the program to IBM India Software Labs_GoodTechScholar."
+						"answer": "Please direct all inquiries about the program to IBM.India.Software.Labs.GoodTechScholars@ibm.com."
 					}
 				]
 			},
@@ -297,7 +310,7 @@ export const ISLGTS = {
 					},
 					{
 						"question": "My registration has been confirmed, but I can no longer attend the program. What do I do?",
-						"answer": "Contact IBM India Software Labs_GoodTechScholar if you are no longer able to attend the program."
+						"answer": "Contact IBM.India.Software.Labs.GoodTechScholars@ibm.com if you are no longer able to attend the program."
 					}
 				]
 			}
@@ -308,7 +321,7 @@ export const ISLGTS = {
 		"info": {
 			"text": "Email us @ ",
 			"linkText": "Good Tech Scholars",
-			"link": "/"
+			"link": "mailto:IBM.India.Software.Labs.GoodTechScholars@ibm.com"
 		}
 	},
 	"footer": {

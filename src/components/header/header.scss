@@ -31,12 +31,13 @@
 }
 
 .ibm-gtc-hdr-headbnd-sec {
-	height:25rem;
+	min-height: 28rem;
 	background-color: $ui-05;
 	position: relative;
 	button {
-		width: 12rem;
-		@include carbon--type-style('expressive-heading-02');
+		width: 14rem;
+		height: 4rem;
+		@include carbon--type-style('expressive-heading-03');
 	}
 	.ibm-gtc-video-cntr {
 		.ibm-gtc-video {
@@ -51,7 +52,7 @@
 		color:$text-04;
 		.ibm-gtc-headband-content {
 			padding-left: $spacing-09;
-			position: absolute;
+			position: relative;
 			h1 {
 				@include carbon--type-style('expressive-heading-06');
 				padding-top:$spacing-09;
@@ -65,16 +66,17 @@
 				width: 65%;
 				padding:$spacing-10 0 $spacing-07 0;
 			}
-				
 			@media (max-width: map-get($ibm-gtc--grid-breakpoints, md)) {
 				p {
 					width: 95%;
 					padding:$spacing-04 0;
 				}
-				
+			}
+			.ibm-gtc-headband-warning {
+				@include carbon--type-style('body-short-01');
+				padding-top: $spacing-03;
+    			font-style: italic;
 			}
 		}
-
-	
 	}
 }

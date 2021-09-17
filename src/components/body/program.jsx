@@ -18,7 +18,7 @@ export default function Program() {
 						<p>{locale.program.desc}</p>
 					</div>
 				</Column>
-				<Column lg={5} xlg={5} md={2} sm={1}>
+				<Column className="ibm-gtc-program-col3-container" lg={5} xlg={5} md={2} sm={1}>
 					<div className="ibm-gtc-program-col3">
 						<Calendar32 />
 						<div className="ibm-gtc-program-col3-title">{locale.program.prgdates}</div>
