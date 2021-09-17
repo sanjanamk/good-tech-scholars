@@ -149,7 +149,7 @@ export const ISLGTS = {
 			]
 		},
 		{
-			"header": "Hackathon Schedule",
+			"header": "Code Workshop Schedule",
 			"classname": "ibm-gtc-schedule-event",
 			"events": [
 				{
