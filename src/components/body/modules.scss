@@ -68,9 +68,10 @@
 			border: none;
 		}
 		.bx--accordion__content {
-			min-height: 11rem;
+			min-height: 14rem;
 			@include carbon--type-style('body-short-02');
 			padding-bottom: 0;
+			white-space: break-spaces;
 		}
 	}
 }
@@ -170,6 +171,15 @@
 	.ibm-gtc-schedule {
 		padding-right: $spacing-05;
 	}
+	.ibm-gtc-schedule-preEvent {
+		padding-bottom: $spacing-07;
+		.ibm-gtc-scheduler-hdr {
+			background: $ui-13;
+		}
+	}
+	.ibm-gtc-schedule-event .ibm-gtc-scheduler-hdr {
+		background: $ui-09;
+	}
 	h1 {
 		@include carbon--type-style('productive-heading-04');
 		padding-top: $spacing-03;
@@ -177,7 +187,6 @@
 	.ibm-gtc-scheduler-card {
 		margin-bottom: $spacing-03;
 		.ibm-gtc-scheduler-hdr {
-			background: $ui-09;
 			border: 1px solid $ui-08;
 			padding: $spacing-03;
 			color: $text-04;
@@ -185,6 +194,7 @@
 		.ibm-gtc-scheduler-body {
 			padding: $spacing-05;
 			border: 1px solid $ui-08;
+			border-top: none;
 			min-height: 16rem;
 			h2 {
 				@include carbon--type-style('productive-heading-03');

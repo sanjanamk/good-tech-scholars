@@ -8,40 +8,46 @@ export default function Schedule() {
 	const locale = useContext(localeContext);
 	return (
 		<div className="ibm-gtc-schedule ibm-gtc-page-padding">
-			<Row>
-				<Column sm={4} md={2} lg={4} xlg={4} max={4}>
-					<h1>
-						{locale.schedule.header}
-					</h1>
-				</Column>
-				{
-					locale.schedule.events.map((events, key) => {
-						return (
-							<Column key={key}>
-								<div className="ibm-gtc-scheduler-card">
-									<div className="ibm-gtc-scheduler-hdr">
-										{events.header}
-									</div>
-									<div className="ibm-gtc-scheduler-body">
-										<h2>{events.cardHeader}</h2>
-										<p>{events.cardDesc}</p>
-										{events.cardUser &&
-											<div className="ibm-gtc-user-sec">
-												<User16 />
-												<span>{events.cardUser}</span>
-											</div>
-										}
-										<div className="ibm-gtc-user-sec">
-											<Calendar16 />
-											<span>{events.cardSchedule}</span>
-										</div>
-									</div>
-								</div>
+			{
+				locale.schedule.map((schedule, key) => {
+					return (
+						<Row key={key} className={schedule.classname}>
+							<Column sm={4} md={2} lg={4} xlg={4} max={4}>
+								<h1>
+									{schedule.header}
+								</h1>
 							</Column>
-						)
-					})
-				}
-			</Row>
+							{
+								schedule.events.map((events, eventKey) => {
+									return (
+										<Column key={eventKey}>
+											<div className="ibm-gtc-scheduler-card">
+												<div className="ibm-gtc-scheduler-hdr">
+													{events.header}
+												</div>
+												<div className="ibm-gtc-scheduler-body">
+													<h2>{events.cardHeader}</h2>
+													<p>{events.cardDesc}</p>
+													{events.cardUser &&
+														<div className="ibm-gtc-user-sec">
+															<User16 />
+															<span>{events.cardUser}</span>
+														</div>
+													}
+													<div className="ibm-gtc-user-sec">
+														<Calendar16 />
+														<span>{events.cardSchedule}</span>
+													</div>
+												</div>
+											</div>
+										</Column>
+									)
+								})
+							}
+						</Row>
+					)
+				})
+			}
 		</div>
 	)
 }

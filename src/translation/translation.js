@@ -44,7 +44,7 @@ export const ISLGTS = {
 	},
 	"theme": {
 		"title": "Program Theme",
-		"text": "Students can choose either of two themes to come up with a problem statements and solution ideas.",
+		"text": "Students can choose either of two themes to come up with problem statements and solution ideas.",
 		"themes": [
 			{
 				"title": "Sustainable development for a better tomorrow",
@@ -120,32 +120,62 @@ export const ISLGTS = {
 			}
 		]
 	},
-	"schedule": {
-		"header": "Schedule",
-		"events": [
-			{
-				"header": "Event | Workshop",
-				"cardHeader": "Hackathon Day 1",
-				"cardDesc": "Students will execute the implementation plan. Mentors will be available to provide on-the-ground guidance and help.",
-				"cardUser": "",
-				"cardSchedule": "September 29, 2021"
-			},
-			{
-				"header": "Event | Workshop",
-				"cardHeader": "Hackathon Day 2",
-				"cardDesc": "Students will complete their implementation as per plan and test its working. They will finalize their submission package, create demo/presentation, review with mentors, and commit to their git repository. Mentors will be available to provide on-the-ground guidance and help.",
-				"cardUser": "",
-				"cardSchedule": "September 30, 2021"
-			},
-			{
-				"header": "Event | Workshop",
-				"cardHeader": "Evaluation",
-				"cardDesc": "Students will present their work to the panel in their assigned timeslot.",
-				"cardUser": "",
-				"cardSchedule": "October 01, 2021"
-			}
-		]
-	},
+	"schedule": [
+		{
+			"header": "Pre-Event Schedule",
+			"classname": "ibm-gtc-schedule-preEvent",
+			"events": [
+				{
+					"header": "Pre-Event | Workshop",
+					"cardHeader": "Kick-off",
+					"cardDesc": "Students will be briefed on the hackathon themes, problem examples, guidelines for the hackathon, timelines, and will be introduced to their mentors.",
+					"cardUser": "",
+					"cardSchedule": "September 24, 2021"
+				},
+				{
+					"header": "Pre-Event | Workshop",
+					"cardHeader": "Prep Workshop",
+					"cardDesc": "Students will brainstorm with the assigned mentor(s) to arrive at the problem statement they plan to tackle.",
+					"cardUser": "",
+					"cardSchedule": "September 27, 2021"
+				},
+				{
+					"header": "Pre-Event | Workshop",
+					"cardHeader": "Solution Phase",
+					"cardDesc": "Students will work with the assigned mentor(s) to finalize their solution components and an implementation plan.",
+					"cardUser": "",
+					"cardSchedule": "September 28, 2021"
+				}
+			]
+		},
+		{
+			"header": "Hackathon Schedule",
+			"classname": "ibm-gtc-schedule-event",
+			"events": [
+				{
+					"header": "Event | Workshop",
+					"cardHeader": "Code Workshop Day 1",
+					"cardDesc": "Students will execute the implementation plan. Mentors will be available to provide on-the-ground guidance and help.",
+					"cardUser": "",
+					"cardSchedule": "September 29, 2021"
+				},
+				{
+					"header": "Event | Workshop",
+					"cardHeader": "Code Workshop Day 2",
+					"cardDesc": "Students will complete their implementation as per plan and test its working. They will finalize their submission package, create demo/presentation, review with mentors, and commit to their git repository. Mentors will be available to provide on-the-ground guidance and help.",
+					"cardUser": "",
+					"cardSchedule": "September 30, 2021"
+				},
+				{
+					"header": "Event | Workshop",
+					"cardHeader": "Solution Presentation",
+					"cardDesc": "Students will present their work to the panel in their assigned timeslot.",
+					"cardUser": "",
+					"cardSchedule": "October 01, 2021"
+				}
+			]
+		}
+	],
 	"connect": {
 		"header": "Connect With Us!",
 		"profiles": [
