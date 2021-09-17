@@ -178,19 +178,19 @@ export const ISLGTS = {
 				"img": "madhuri",
 				"name": "Madhuri D Madhavan Pillai",
 				"social": "linkedin",
-				"link": ""
+				"link": "https://www.linkedin.com/in/madhuri-d-m-14b8a076/"
 			},
 			{
 				"img": "minitha",
 				"name": "Minitha Manoj",
 				"social": "linkedin",
-				"link": ""
+				"link": "https://www.linkedin.com/in/minitha-manoj-a6a559b/"
 			}, 
 			{
 				"img": "gayathri",
 				"name": "Gayathri P Subbaiah",
 				"social": "linkedin",
-				"link": ""
+				"link": "https://www.linkedin.com/in/gayathri-subbaiah-2409561/"
 			}
 		]
 	},
