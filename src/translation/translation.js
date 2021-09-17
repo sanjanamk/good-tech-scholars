@@ -40,7 +40,7 @@ export const ISLGTS = {
 		"header": "Good Tech Scholars",
 		"desc": "This program will empower you with Industry and professional skills through online learning and hands-on experience to build and present code based solution to a panel of judges. The program culminates with a celebration of all the skills you have acquired and prepare you for Software Product Engineering careers.",
 		"prgdates": "Program Dates",
-		"dates": "September 29,2021 - October 01, 2021"
+		"dates": "September 24,2021 - October 01, 2021"
 	},
 	"theme": {
 		"title": "Program Theme",
@@ -128,7 +128,7 @@ export const ISLGTS = {
 				{
 					"header": "Pre-Event | Workshop",
 					"cardHeader": "Kick-off",
-					"cardDesc": "Students will be briefed on the hackathon themes, problem examples, guidelines for the hackathon, timelines, and will be introduced to their mentors.",
+					"cardDesc": "Students will be briefed on the code workshop themes, problem examples, guidelines for the code workshop, timelines, and will be introduced to their mentors.",
 					"cardUser": "",
 					"cardSchedule": "September 24, 2021"
 				},
@@ -137,14 +137,14 @@ export const ISLGTS = {
 					"cardHeader": "Prep Workshop",
 					"cardDesc": "Students will brainstorm with the assigned mentor(s) to arrive at the problem statement they plan to tackle.",
 					"cardUser": "",
-					"cardSchedule": "September 27, 2021"
+					"cardSchedule": "September 24, 2021"
 				},
 				{
 					"header": "Pre-Event | Workshop",
 					"cardHeader": "Solution Phase",
 					"cardDesc": "Students will work with the assigned mentor(s) to finalize their solution components and an implementation plan.",
 					"cardUser": "",
-					"cardSchedule": "September 28, 2021"
+					"cardSchedule": "September 27, 2021"
 				}
 			]
 		},
@@ -187,6 +187,12 @@ export const ISLGTS = {
 
 			},
 			{
+				"img": "madhuri",
+				"name": "Madhuri D Madhavan Pillai",
+				"social": "linkedin",
+				"link": "https://www.linkedin.com/in/madhuri-d-m-14b8a076/"
+			},
+			{
 				"img": "srini",
 				"name": "Srinivasan S Muthuswamy",
 				"social": "linkedin",
@@ -199,28 +205,28 @@ export const ISLGTS = {
 				"link": "https://www.linkedin.com/in/charlykurian"
 			},
 			{
-				"img": "george",
-				"name": "George Oommen",
-				"social": "linkedin",
-				"link": "https://www.linkedin.com/in/george-oommen-902752/"
-			}, 
-			{
-				"img": "madhuri",
-				"name": "Madhuri D Madhavan Pillai",
-				"social": "linkedin",
-				"link": "https://www.linkedin.com/in/madhuri-d-m-14b8a076/"
-			},
-			{
 				"img": "minitha",
 				"name": "Minitha Manoj",
 				"social": "linkedin",
 				"link": "https://www.linkedin.com/in/minitha-manoj-a6a559b/"
 			}, 
 			{
+				"img": "george",
+				"name": "George Oommen",
+				"social": "linkedin",
+				"link": "https://www.linkedin.com/in/george-oommen-902752/"
+			}, 
+			{
 				"img": "gayathri",
 				"name": "Gayathri P Subbaiah",
 				"social": "linkedin",
 				"link": "https://www.linkedin.com/in/gayathri-subbaiah-2409561/"
+			},
+			{
+				"img": "shweta",
+				"name": "Shweta",
+				"social": "linkedin",
+				"link": "https://www.linkedin.com/in/shweta-shandilya-19a76414/"
 			}
 		]
 	},
@@ -256,7 +262,7 @@ export const ISLGTS = {
 				"title": "Logistics",
 				"content": [
 					{
-						"question": "What are the dates and times of the program?",
+						"question": "What is the date and time of the program?",
 						"answer": "Please refer to the program schedule mentioned above for specific details."
 					},
 					{
@@ -270,7 +276,7 @@ export const ISLGTS = {
 					},
 					{
 						"question": "What do I need to participate in this program?",
-						"answer": "All you'll need is a laptop with microphone and camera capabilities! Presentation software (such as Google Slides, PowerPoint, Github etc.) will be required to create slides for your solution presentation."
+						"answer": "All you'll need is a laptop with microphone, camera and good internet connectivity! Presentation software (such as Google Slides, PowerPoint, Github etc.) will be required to create slides for your solution presentation."
 					}
 				]
 			},

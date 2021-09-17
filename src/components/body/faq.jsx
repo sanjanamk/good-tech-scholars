@@ -35,8 +35,8 @@ export default function FAQ() {
 											{
 												section.content.map((content, key) => {
 													return (
-														<AccordionItem key={key} title={content.question}>
-															<p>{content.answer}</p>
+														<AccordionItem key={key} title={"Q: " + content.question}>
+															<p>{"A: " + content.answer}</p>
 														</AccordionItem>
 													)
 												})
