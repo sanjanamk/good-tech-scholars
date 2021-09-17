@@ -52,17 +52,17 @@ export const ISLGTS = {
 				"img": "sustainable",
 				"desc": "Smart applications that can aid sustainable development goals that balances use of natural resources and green technologies with urbanization, agricultural, and industrial needs.\n" +
 				"Sample problems / Sub-themes:\n" +
-				"- Improved monitoring and management of traffic (e.g. city traffic, drone traffic)\n" +
-				"- Improved monitoring and management of natural resources (e.g. smart cities, smart homes)\n" +
-				"- Urban expansion and service planning - sustainable communities"
+				"- Improved monitoring and management of traffic (e.g. city traffic, drone traffic).\n" +
+				"- Improved monitoring and management of natural resources (e.g. smart cities, smart homes).\n" +
+				"- Urban expansion and service planning - sustainable communities."
 			},
 			{
 				"title": "Digital transformation for social change",
 				"img": "digital",
 				"desc": "Unlock data and insights to transform user experiences, make services accessible, improve transparency, and assist stakeholder decision-making.\n" +
 				"Sample problems / Sub-themes:\n" +
-				"- Easier access to services in local language (e.g. railway reservation, RTO services)\n" +
-				"- Low technology barrier and work over mobile (e.g. managing informal workers, dealing with health / security emergencies)"
+				"- Easier access to services in local language (e.g. railway reservation, RTO services).\n" +
+				"- Low technology barrier and work over mobile (e.g. managing informal workers, dealing with health / security emergencies)."
 			}
 		]
 	},
