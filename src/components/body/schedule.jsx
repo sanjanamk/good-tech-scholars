@@ -25,10 +25,12 @@ export default function Schedule() {
 									<div className="ibm-gtc-scheduler-body">
 										<h2>{events.cardHeader}</h2>
 										<p>{events.cardDesc}</p>
-										<div className="ibm-gtc-user-sec">
-											<User16 />
-											<span>{events.cardUser}</span>
-										</div>
+										{events.cardUser &&
+											<div className="ibm-gtc-user-sec">
+												<User16 />
+												<span>{events.cardUser}</span>
+											</div>
+										}
 										<div className="ibm-gtc-user-sec">
 											<Calendar16 />
 											<span>{events.cardSchedule}</span>

@@ -44,7 +44,7 @@ export const ISLGTS = {
 	},
 	"theme": {
 		"title": "Program Theme",
-		"text": "We have 2 themes and outline of problem statements in each of the themes.\nStudents can choose any one problem from any one of the theme and participate in the Hackathon.",
+		"text": "Students can choose either of two themes to come up with a problem statements and solution ideas.",
 		"themes": [
 			{
 				"title": "Sustainable development for a better tomorrow",
@@ -125,24 +125,24 @@ export const ISLGTS = {
 		"events": [
 			{
 				"header": "Event | Workshop",
-				"cardHeader": "Developer Resources - Intro Lab",
-				"cardDesc": "Students will set up their IBM Cloud account, get an intro to the platform, and work through some practice exercises.",
-				"cardUser": "Marek Sadowski",
-				"cardSchedule": "September 2,2021 2:00 pm - 5:00 pm IST"
+				"cardHeader": "Hackathon Day 1",
+				"cardDesc": "Students will execute the implementation plan. Mentors will be available to provide on-the-ground guidance and help.",
+				"cardUser": "",
+				"cardSchedule": "September 29, 2021"
 			},
 			{
 				"header": "Event | Workshop",
-				"cardHeader": "Enterprise Design Thinking",
-				"cardDesc": "Students will learn about and apply design thinking principles to determine problem statements and possible solutions.",
-				"cardUser": "Tom Dayton & Heather Korczysnki",
-				"cardSchedule": "September 3,2021 2:00 pm - 5:00 pm IST"
+				"cardHeader": "Hackathon Day 2",
+				"cardDesc": "Students will complete their implementation as per plan and test its working. They will finalize their submission package, create demo/presentation, review with mentors, and commit to their git repository. Mentors will be available to provide on-the-ground guidance and help.",
+				"cardUser": "",
+				"cardSchedule": "September 30, 2021"
 			},
 			{
 				"header": "Event | Workshop",
-				"cardHeader": "Developer Resources - Intro Lab",
-				"cardDesc": "Students will learn about and apply design thinking principles to determine problem statements and possible solutions.",
-				"cardUser": "Tom Dayton & Heather Korczysnki",
-				"cardSchedule": "September 2,2021 2:00 pm - 5:00 pm IST"
+				"cardHeader": "Evaluation",
+				"cardDesc": "Students will present their work to the panel in their assigned timeslot.",
+				"cardUser": "",
+				"cardSchedule": "October 01, 2021"
 			}
 		]
 	},
@@ -202,23 +202,23 @@ export const ISLGTS = {
 				"content": [
 					{
 						"question": "What is the Good Tech Scholars program?",
-						"answer": "The Good Tech Scholars program is a virtual project-based learning program that enables college students to develop industry skills through online learning, hands‐on workshops, and team collaboration. With guidance from IBM mentors and subject matter experts, students will work in teams to solve real‐world challenges using the latest technologies from IBM's Data & AI organization."
+						"answer": "Good Tech Scholars is a virtual program that enables college students to develop industry skills through hands‐on experience, workshops, and projects.\n" +
+						"IBM India software Labs (ISL) experts will guide the students to collaborate in solving real‐world challenges using digital technologies, professional skills, and more."
 					},
 					{
 						"question": "Who can participate?",
 						"answer": "In order to participate in IBM's Good Tech Scholars Program, you must:\n" +
-							"1. Be actively enrolled in a 2-year or 4-year college or university.\n" +
-							"2. Supply your own computer/laptop with internet access for use throughout the program.\n" +
+							"1. College/ University students currently pursuing a Under graduation/ Post graduation/ Integrated Degree.\n" +
+							"2. Have a computer/laptop with internet access for use throughout the program.\n" +
 							"3. Have coding experience such as those outlined below or something similar:\n" +
 							"- Creating 2-3 tier application with a web form(s), a logic server (python, java, C#, js, Go, Swift, etc), and a database/a file\n" +
 							"- An object oriented small project (receiving data from input (a command line, a socket, a sensor) and a logic executed in a “server” process\n" +
 							"- Building your own bot for a messaging platform (a bot for a Discord channel)\n" +
-							"- A low code flow(s) responding to events - like tweets, changes in a sensor state, etc - popular coding for Mindstorm robots, or Scratch based electronics\n" +
 							"- Being a designer that is able to craft an html page in CSS, or an interface on a mobile device."
 					},
 					{
 						"question": "Who should I contact with questions, comments, or concerns?",
-						"answer": "Please direct all inquiries about the program to ibmgtsp@us.ibm.com."
+						"answer": "Please direct all inquiries about the program to IBM India Software Labs_GoodTechScholar."
 					}
 				]
 			},
@@ -227,23 +227,20 @@ export const ISLGTS = {
 				"content": [
 					{
 						"question": "What are the dates and times of the program?",
-						"answer": "The next program will be offered from July 12, 2021 to August 5, 2021. Program sessions will take place on Mondays, Wednesdays, and Thursdays from 2-5pm PT. Please refer to the program schedule for specific details."
+						"answer": "Please refer to the program schedule mentioned above for specific details."
 					},
 					{
 						"question": "What will the program sessions be like?",
-						"answer": "The program sessions will allow you to work with your team on Ideation, Design Thinking, IBM tools, and Presentation Preparation. Please refer to the Workshops Tab for detailed information."
+						"answer": "The program sessions will allow you to work with a group of students along with IBM ISL technical experts to build a solution.\n" +
+						"Please refer to the program schedule mentioned above for detailed information."
 					},
 					{
-						"question": "What if I can't attend a session live?",
-						"answer": "You should work with your teammates and assigned mentor regarding any absences. Recordings of the main sessions will be provided but will not be available for any breakout sessions. "
+						"question": "Is attendance mandatory?",
+						"answer": "Yes, three days attendance is mandatory and 100% participation in all the team activities. Attendance will be recorded."
 					},
 					{
-						"question": "Will program sessions be recorded?",
-						"answer": "Yes, every session will be recorded and available for replay for a limited time however breakout sessions will not be included in those recordings. Both live and recorded sessions will only be accessible to program participants. "
-					},
-					{
-						"question": "What do I need in order to participate?",
-						"answer": "All you'll need is a laptop with microphone and camera capabilities! Presentation software (such as Google Slides, PowerPoint, etc.) will be required to create slides for your presentation."
+						"question": "What do I need to participate in this program?",
+						"answer": "All you'll need is a laptop with microphone and camera capabilities! Presentation software (such as Google Slides, PowerPoint, Github etc.) will be required to create slides for your solution presentation."
 					}
 				]
 			},
@@ -252,19 +249,19 @@ export const ISLGTS = {
 				"content": [
 					{
 						"question": "When does registration begin and end?",
-						"answer": "Registration is currently open and ends June 27, 2021 or until the program reaches 60 participants (whichever comes first)."
+						"answer": "Registration is currently open and ends on September 23, 2021 at 6:00 PM."
 					},
 					{
-						"question": "Do I need to register with a team?",
-						"answer": "While we encourage participants to register as a team of 3-5 students, we do welcome individual participants. Any individual participants will be assigned to teams that have less than 5 students."
+						"question": "How do I register?",
+						"answer": "You are requested to register as individual participant. Click on the Register button provided at the top."
 					},
 					{
 						"question": "When will I receive a registration confirmation?",
-						"answer": "You will receive a welcome email confirming your participation in the program within 5 business days of completing the application form."
+						"answer": "If your application meets all the mandatory pre-requisites as specified in the registration form, you will receive a welcome email confirming your participation in the program within 2 business days of registration closure."
 					},
 					{
 						"question": "My registration has been confirmed, but I can no longer attend the program. What do I do?",
-						"answer": "Contact ibmgtsp@us.ibm.com if you are no longer able to attend the program."
+						"answer": "Contact IBM India Software Labs_GoodTechScholar if you are no longer able to attend the program."
 					}
 				]
 			}
