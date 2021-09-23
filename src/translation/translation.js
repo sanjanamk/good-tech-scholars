@@ -5,7 +5,8 @@ export const ISLGTS = {
 		"content": "Good Tech Scholars is a virtual program that enables college students to develop industry skills through hands‐on experience, workshops, and projects. IBM India software Labs (ISL) experts will guide the students to collaborate in solving real‐world challenges using digital technologies, professional skills, and more.",
 		"button": {
 			"text": "Register Now",
-			"link": "https://docs.google.com/forms/d/11_jSwehMzajshskVuXDMbZIeDvG6DKaz9Fn-9614wBU/viewform?edit_requested=true"
+			"link": "https://docs.google.com/forms/d/11_jSwehMzajshskVuXDMbZIeDvG6DKaz9Fn-9614wBU/viewform?edit_requested=true",
+			"disable": true
 		},
 		"warning": "Registration closes on September 23, 2021"
 	},
@@ -131,21 +132,21 @@ export const ISLGTS = {
 					"cardHeader": "Kick-off",
 					"cardDesc": "Students will be briefed on the code workshop themes, problem examples, guidelines for the code workshop, timelines, and will be introduced to their mentors.",
 					"cardUser": "",
-					"cardSchedule": "September 24, 2021"
+					"cardSchedule": "September 24, 2021 | 10:00 am - 12:00 noon IST"
 				},
 				{
 					"header": "Pre-Event | Workshop",
 					"cardHeader": "Prep Workshop",
 					"cardDesc": "Students will brainstorm with the assigned mentor(s) to arrive at the problem statement they plan to tackle.",
 					"cardUser": "",
-					"cardSchedule": "September 24, 2021"
+					"cardSchedule": "September 24, 2021 | 3:00 pm - 5:00 pm IST"
 				},
 				{
 					"header": "Pre-Event | Workshop",
 					"cardHeader": "Solution Phase",
 					"cardDesc": "Students will work with the assigned mentor(s) to finalize their solution components and an implementation plan.",
 					"cardUser": "",
-					"cardSchedule": "September 27, 2021"
+					"cardSchedule": "September 27, 2021 | 10:00 am - 12:00 noon IST"
 				}
 			]
 		},
@@ -158,21 +159,21 @@ export const ISLGTS = {
 					"cardHeader": "Code Workshop Day 1",
 					"cardDesc": "Students will execute the implementation plan. Mentors will be available to provide on-the-ground guidance and help.",
 					"cardUser": "",
-					"cardSchedule": "September 29, 2021"
+					"cardSchedule": "September 29, 2021 | Full day"
 				},
 				{
 					"header": "Event | Workshop",
 					"cardHeader": "Code Workshop Day 2",
 					"cardDesc": "Students will complete their implementation as per plan and test its working. They will finalize their submission package, create demo/presentation, review with mentors, and commit to their git repository. Mentors will be available to provide on-the-ground guidance and help.",
 					"cardUser": "",
-					"cardSchedule": "September 30, 2021"
+					"cardSchedule": "September 30, 2021 | Full day"
 				},
 				{
 					"header": "Event | Workshop",
 					"cardHeader": "Solution Presentation",
 					"cardDesc": "Students will present their work to the panel in their assigned timeslot.",
 					"cardUser": "",
-					"cardSchedule": "October 01, 2021"
+					"cardSchedule": "October 01, 2021 | 9:00 am - 6:00 pm IST"
 				}
 			]
 		}

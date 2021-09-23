@@ -27,7 +27,7 @@ export default function HeadBand() {
 					<p>
 						{locales.headband.content}
 					</p>
-					<Button renderIcon={ChevronRight16} iconDescription={locales.headband.button.text} onClick={() => handleButton()}>
+					<Button disabled={locales.headband.button.disable} renderIcon={ChevronRight16} iconDescription={locales.headband.button.text} onClick={() => handleButton()}>
 						{locales.headband.button.text}
 					</Button>
 					<div className="ibm-gtc-headband-warning">{locales.headband.warning}</div>
