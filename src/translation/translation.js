@@ -6,7 +6,7 @@ export const ISLGTS = {
 		"button": {
 			"text": "Register Now",
 			"link": "https://docs.google.com/forms/d/11_jSwehMzajshskVuXDMbZIeDvG6DKaz9Fn-9614wBU/viewform?edit_requested=true",
-			"disable": true
+			"disable": false
 		},
 		"warning": "Registration closes on September 23, 2021"
 	},
