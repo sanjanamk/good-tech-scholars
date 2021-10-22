@@ -231,6 +231,12 @@ export const ISLGTS = {
 				"link": "https://www.linkedin.com/in/shweta-shandilya-19a76414/"
 			},
 			{
+				"img": "latha",
+				"name": "Latha Raj",
+				"social": "linkedin",
+				"link": "https://www.linkedin.com/in/latha-raj-0168bb54/"
+			},
+			{
 				"img": "sanjana",
 				"name": "Sanjana Mallikarjuna",
 				"social": "linkedin",

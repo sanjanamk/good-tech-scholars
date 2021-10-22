@@ -20,7 +20,7 @@ export default function Connect() {
 							locale.connect.profiles.map((profiles, key) => {
 								const img = require(`../../assets/connect/${profiles.img}.png`).default || '';
 								return (
-									<Column key={key} sm={2} md={2} lg={3} xlg={3} max={3}>
+									<Column key={key} sm={2} md={2} lg={3} xlg={3} max={4}>
 										<div className="ibm-gtc-connect-module">
 											<img src={img} alt={''}></img>
 											<div className="ibm-gtc-connect-user">
