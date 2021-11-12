@@ -13,7 +13,7 @@ export const ISLGTS = {
 	"tabs": [
 		{
 			"prefix": "01",
-			"name": "Theme",
+			"name": "Program theme",
 			"reference": "themes"
 		},
 		{
@@ -129,6 +129,13 @@ export const ISLGTS = {
 			"events": [
 				{
 					"header": "Pre-Event | Workshop",
+					"cardHeader": "Readiness by students prior to Kick off",
+					"cardDesc": "5 member team to be formed and finalise idea on solutions for any one of the Program specified.",
+					"cardUser": "",
+					"cardSchedule": "November 15, 2021 - November 22, 2021"
+				},
+				{
+					"header": "Pre-Event | Workshop",
 					"cardHeader": "Kick-off",
 					"cardDesc": "Students will be briefed on the code workshop themes, problem examples, guidelines for the code workshop, timelines, and will be introduced to their mentors.",
 					"cardUser": "",
@@ -157,14 +164,14 @@ export const ISLGTS = {
 				{
 					"header": "Event | Workshop",
 					"cardHeader": "Code Workshop Day 1",
-					"cardDesc": "Students will execute the implementation plan. Mentors will be available to provide on-the-ground guidance and help.",
+					"cardDesc": "Students will execute the implementation plan. Mentors will be available to provide remote guidance and help.",
 					"cardUser": "",
 					"cardSchedule": "November 23, 2021 | Full day"
 				},
 				{
 					"header": "Event | Workshop",
 					"cardHeader": "Code Workshop Day 2",
-					"cardDesc": "Students will complete their implementation as per plan and test its working. They will finalize their submission package, create demo/presentation, review with mentors, and commit to their git repository. Mentors will be available to provide on-the-ground guidance and help.",
+					"cardDesc": "Students will complete their implementation as per plan and test its working. They will finalize their submission package, create demo/presentation, review with mentors, and commit to their git repository. Mentors will be available to provide remote guidance and help.",
 					"cardUser": "",
 					"cardSchedule": "November 24, 2021 | Full day"
 				},
