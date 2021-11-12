@@ -182,13 +182,6 @@ export const ISLGTS = {
 		"header": "Connect With Us!",
 		"profiles": [
 			{
-				"img": "anbumunee",
-				"name": "Anbumunee Ponniah",
-				"social": "linkedin",
-				"link": "https://www.linkedin.com/in/anbumunee-p-0447b5/"
-
-			},
-			{
 				"img": "madhuri",
 				"name": "Madhuri D Madhavan Pillai",
 				"social": "linkedin",
