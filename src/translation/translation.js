@@ -5,10 +5,10 @@ export const ISLGTS = {
 		"content": "Good Tech Scholars is a virtual program that enables college students to develop industry skills through hands‐on experience, workshops, and projects. IBM India software Labs (ISL) experts will guide the students to collaborate in solving real‐world challenges using digital technologies, professional skills, and more.",
 		"button": {
 			"text": "Register Now",
-			"link": "https://docs.google.com/forms/d/11_jSwehMzajshskVuXDMbZIeDvG6DKaz9Fn-9614wBU/viewform?edit_requested=true",
-			"disable": true
+			"link": "https://docs.google.com/forms/d/11_jSwehMzajshskVuXDMbZIeDvG6DKaz9Fn-9614wBU/edit",
+			"disable": false
 		},
-		"warning": "Registration closes on September 23, 2021"
+		"warning": "Registration closes on November 17, 2021"
 	},
 	"tabs": [
 		{
@@ -42,7 +42,7 @@ export const ISLGTS = {
 		"header": "Good Tech Scholars",
 		"desc": "This program will empower you with Industry and professional skills through online learning and hands-on experience to build and present code based solution to a panel of judges. The program culminates with a celebration of all the skills you have acquired and prepare you for Software Product Engineering careers.",
 		"prgdates": "Program Dates",
-		"dates": "September 24,2021 - October 01, 2021"
+		"dates": "November 22,2021 - November 25, 2021"
 	},
 	"theme": {
 		"title": "Program Theme",
@@ -132,22 +132,22 @@ export const ISLGTS = {
 					"cardHeader": "Kick-off",
 					"cardDesc": "Students will be briefed on the code workshop themes, problem examples, guidelines for the code workshop, timelines, and will be introduced to their mentors.",
 					"cardUser": "",
-					"cardSchedule": "September 24, 2021 | 10:00 am - 12:00 noon IST"
-				},
-				{
-					"header": "Pre-Event | Workshop",
-					"cardHeader": "Prep Workshop",
-					"cardDesc": "Students will brainstorm with the assigned mentor(s) to arrive at the problem statement they plan to tackle.",
-					"cardUser": "",
-					"cardSchedule": "September 24, 2021 | 3:00 pm - 5:00 pm IST"
-				},
-				{
-					"header": "Pre-Event | Workshop",
-					"cardHeader": "Solution Phase",
-					"cardDesc": "Students will work with the assigned mentor(s) to finalize their solution components and an implementation plan.",
-					"cardUser": "",
-					"cardSchedule": "September 27, 2021 | 10:00 am - 12:00 noon IST"
+					"cardSchedule": "November 22, 2021 | 05:00 pm - 07:00 pm IST"
 				}
+				// {
+				// 	"header": "Pre-Event | Workshop",
+				// 	"cardHeader": "Prep Workshop",
+				// 	"cardDesc": "Students will brainstorm with the assigned mentor(s) to arrive at the problem statement they plan to tackle.",
+				// 	"cardUser": "",
+				// 	"cardSchedule": "September 24, 2021 | 3:00 pm - 5:00 pm IST"
+				// },
+				// {
+				// 	"header": "Pre-Event | Workshop",
+				// 	"cardHeader": "Solution Phase",
+				// 	"cardDesc": "Students will work with the assigned mentor(s) to finalize their solution components and an implementation plan.",
+				// 	"cardUser": "",
+				// 	"cardSchedule": "September 27, 2021 | 10:00 am - 12:00 noon IST"
+				// }
 			]
 		},
 		{
@@ -159,21 +159,21 @@ export const ISLGTS = {
 					"cardHeader": "Code Workshop Day 1",
 					"cardDesc": "Students will execute the implementation plan. Mentors will be available to provide on-the-ground guidance and help.",
 					"cardUser": "",
-					"cardSchedule": "September 29, 2021 | Full day"
+					"cardSchedule": "November 23, 2021 | Full day"
 				},
 				{
 					"header": "Event | Workshop",
 					"cardHeader": "Code Workshop Day 2",
 					"cardDesc": "Students will complete their implementation as per plan and test its working. They will finalize their submission package, create demo/presentation, review with mentors, and commit to their git repository. Mentors will be available to provide on-the-ground guidance and help.",
 					"cardUser": "",
-					"cardSchedule": "September 30, 2021 | Full day"
+					"cardSchedule": "November 24, 2021 | Full day"
 				},
 				{
 					"header": "Event | Workshop",
-					"cardHeader": "Solution Presentation",
-					"cardDesc": "Students will present their work to the panel in their assigned timeslot.",
+					"cardHeader": "Submission",
+					"cardDesc": "Students will submit their code solutions.",
 					"cardUser": "",
-					"cardSchedule": "October 01, 2021 | 9:00 am - 6:00 pm IST"
+					"cardSchedule": "November 25, 2021 | 9:00 am - 6:00 pm IST"
 				}
 			]
 		}
@@ -237,16 +237,40 @@ export const ISLGTS = {
 				"link": "https://www.linkedin.com/in/latha-raj-0168bb54/"
 			},
 			{
+				"img": "sudheer",
+				"name": "Sudheer Kareem",
+				"social": "linkedin",
+				"link": "https://www.linkedin.com/in/sudheerkareem/"
+			},
+			{
+				"img": "ajith",
+				"name": "Ajith A Philip",
+				"social": "linkedin",
+				"link": "https://www.linkedin.com/in/ajith-a-philip-3277ba35/"
+			},
+			{
+				"img": "vishal",
+				"name": "Vishal Chahal",
+				"social": "linkedin",
+				"link": "https://in.linkedin.com/in/vishalchahal"
+			},
+			{
+				"img": "vinayakrishnan",
+				"name": "Vinayakrishnan KR",
+				"social": "linkedin",
+				"link": "https://www.linkedin.com/in/vinayakrishnankr/"
+			},
+			{
 				"img": "sanjana",
 				"name": "Sanjana Mallikarjuna",
 				"social": "linkedin",
 				"link": "https://www.linkedin.com/in/sanjana-mallikarjuna/"
 			},
 			{
-				"img": "rakesh",
-				"name": "Rakesh Addepalle",
+				"img": "shruti",
+				"name": "Shruti Srivastava",
 				"social": "linkedin",
-				"link": "https://www.linkedin.com/in/rakesh-addepalle-429b78108/"
+				"link": "https://www.linkedin.com/in/shruti-srivastava-6505a646/"
 			}
 		]
 	},
@@ -305,7 +329,7 @@ export const ISLGTS = {
 				"content": [
 					{
 						"question": "When does registration begin and end?",
-						"answer": "Registration is currently open and ends on September 23, 2021 at 6:00 PM."
+						"answer": "Registration is currently open and ends on November 17, 2021 at 6:00 PM."
 					},
 					{
 						"question": "How do I register?",

@@ -20,7 +20,7 @@ export default function Schedule() {
 							{
 								schedule.events.map((events, eventKey) => {
 									return (
-										<Column key={eventKey}>
+										<Column key={eventKey} sm={4} md={2}>
 											<div className="ibm-gtc-scheduler-card">
 												<div className="ibm-gtc-scheduler-hdr">
 													{events.header}
