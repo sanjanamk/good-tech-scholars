@@ -40,7 +40,7 @@ export const ISLGTS = {
 	"program": {
 		"about": "About the Program",
 		"header": "Good Tech Scholars",
-		"desc": "This program will empower you with Industry and professional skills through online learning and hands-on experience to build and present code based solution to a panel of judges. The program culminates with a celebration of all the skills you have acquired and prepare you for Software Product Engineering careers.",
+		"desc": "This program will empower you with Industry and professional skills through online learning and hands-on experience to build and submit code solutions. The program culminates with a celebration of all the skills you have acquired and prepare you for Software Product Engineering careers.",
 		"prgdates": "Program Dates",
 		"dates": "November 22,2021 - November 25, 2021"
 	},
