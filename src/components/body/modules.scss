@@ -200,6 +200,7 @@
 			border: 1px solid $ui-08;
 			border-top: none;
 			min-height: 16rem;
+			white-space: break-spaces;
 			h2 {
 				@include carbon--type-style('productive-heading-03');
 				min-height: 50px;

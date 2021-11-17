@@ -6,7 +6,7 @@ export const ISLGTS = {
 		"button": {
 			"text": "Register Now",
 			"link": "https://docs.google.com/forms/d/11_jSwehMzajshskVuXDMbZIeDvG6DKaz9Fn-9614wBU/edit",
-			"disable": false
+			"disable": true
 		},
 		"warning": "Registration closes on November 17, 2021"
 	},
@@ -129,8 +129,10 @@ export const ISLGTS = {
 			"events": [
 				{
 					"header": "Pre-Event | Workshop",
-					"cardHeader": "Readiness by students prior to Kick off",
-					"cardDesc": "5 member team to be formed and finalise idea on solutions for any one of the Program specified.",
+					"cardHeader": "Readiness by students before Kick-off",
+					"cardDesc": "* November 18, 2021 | 05:00 pm IST - Briefing session about the event and prerequisites for kick-off\n" +
+						"* November 19, 2021 | 05:00 pm IST - Session on Women in Technology\n" +
+						"* Team of 5-7 members to be formed and finalise a solution idea for any one of the programs specified",
 					"cardUser": "",
 					"cardSchedule": "November 15, 2021 - November 22, 2021"
 				},
