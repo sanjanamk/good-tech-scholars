@@ -132,7 +132,7 @@ export const ISLGTS = {
 					"cardHeader": "Readiness by students before Kick-off",
 					"cardDesc": "* November 18, 2021 | 05:00 pm IST - Briefing session about the event and prerequisites for kick-off\n" +
 						"* November 19, 2021 | 05:00 pm IST - Session on Women in Technology\n" +
-						"* Team of 5-7 members to be formed and finalise a solution idea for any one of the programs specified",
+						"* Form a team of 7 members and finalise a solution idea for any one of the programs specified",
 					"cardUser": "",
 					"cardSchedule": "November 15, 2021 - November 22, 2021"
 				},
