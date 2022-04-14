@@ -148,7 +148,7 @@ export const ISLGTS = {
 					"cardHeader": "Mentor connect with students",
 					"cardDesc": "Students will be introduced to their mentors, they will work together to arrive at the problem statement they plan to tackle.",
 					"cardUser": "",
-					"cardSchedule": "April 26, 2022 - May 04, 2022"
+					"cardSchedule": "April 27, 2022"
 				}
 				// {
 				// 	"header": "Pre-Event | Workshop",
@@ -319,7 +319,7 @@ export const ISLGTS = {
 					},
 					{
 						"question": "Who should I contact with questions, comments, or concerns?",
-						"answer": "Please direct all inquiries about the program to IBM.India.Software.Labs.GoodTechScholars@ibm.com."
+						"answer": "Please direct all inquiries about the program to gsubbaia@in.ibm.com."
 					}
 				]
 			},
@@ -362,7 +362,7 @@ export const ISLGTS = {
 					},
 					{
 						"question": "My registration has been confirmed, but I can no longer attend the program. What do I do?",
-						"answer": "Contact IBM.India.Software.Labs.GoodTechScholars@ibm.com if you are no longer able to attend the program."
+						"answer": "Contact gsubbaia@in.ibm.com if you are no longer able to attend the program."
 					}
 				]
 			}
@@ -373,7 +373,7 @@ export const ISLGTS = {
 		"info": {
 			"text": "Email us @ ",
 			"linkText": "Good Tech Scholars",
-			"link": "mailto:IBM.India.Software.Labs.GoodTechScholars@ibm.com"
+			"link": "mailto:gsubbaia@in.ibm.com"
 		}
 	},
 	"footer": {
