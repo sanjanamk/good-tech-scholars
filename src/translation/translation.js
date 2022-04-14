@@ -8,7 +8,7 @@ export const ISLGTS = {
 			"link": "https://docs.google.com/forms/d/11_jSwehMzajshskVuXDMbZIeDvG6DKaz9Fn-9614wBU/edit",
 			"disable": true
 		},
-		"warning": "Registration closes on November 17, 2021"
+		"warning": "Registration closes on April 22, 2022"
 	},
 	"tabs": [
 		{
@@ -42,7 +42,7 @@ export const ISLGTS = {
 		"header": "Good Tech Scholars",
 		"desc": "This program will empower you with Industry and professional skills through online learning and hands-on experience to build and submit code solutions. The program culminates with a celebration of all the skills you have acquired and prepare you for Software Product Engineering careers.",
 		"prgdates": "Program Dates",
-		"dates": "November 22,2021 - November 25, 2021"
+		"dates": "April 26, 2022 - May 06, 2022"
 	},
 	"theme": {
 		"title": "Program Theme",
@@ -127,21 +127,28 @@ export const ISLGTS = {
 			"header": "Pre-Event Schedule",
 			"classname": "ibm-gtc-schedule-preEvent",
 			"events": [
-				{
-					"header": "Pre-Event | Workshop",
-					"cardHeader": "Readiness by students before Kick-off",
-					"cardDesc": "* November 18, 2021 | 05:00 pm IST - Briefing session about the event and prerequisites for kick-off\n" +
-						"* November 19, 2021 | 05:00 pm IST - Session on Women in Technology\n" +
-						"* Form a team of 7 members and finalise a solution idea for any one of the programs specified",
-					"cardUser": "",
-					"cardSchedule": "November 15, 2021 - November 22, 2021"
-				},
+				// {
+				// 	"header": "Pre-Event | Workshop",
+				// 	"cardHeader": "Readiness by students before Kick-off",
+				// 	"cardDesc": "* November 18, 2021 | 05:00 pm IST - Briefing session about the event and prerequisites for kick-off\n" +
+				// 		"* November 19, 2021 | 05:00 pm IST - Session on Women in Technology\n" +
+				// 		"* Form a team of 7 members and finalise a solution idea for any one of the programs specified",
+				// 	"cardUser": "",
+				// 	"cardSchedule": "November 15, 2021 - November 22, 2021"
+				// },
 				{
 					"header": "Pre-Event | Workshop",
 					"cardHeader": "Kick-off",
 					"cardDesc": "Students will be briefed on the code workshop themes, problem examples, guidelines for the code workshop, timelines, and will be introduced to their mentors.",
 					"cardUser": "",
-					"cardSchedule": "November 22, 2021 | 05:00 pm - 07:00 pm IST"
+					"cardSchedule": "April 26, 2022 | 05:00 pm IST"
+				},
+				{
+					"header": "Pre-Event | Workshop",
+					"cardHeader": "Mentor connect with students",
+					"cardDesc": "Students will be introduced to their mentors, they will work together to arrive at the problem statement they plan to tackle.",
+					"cardUser": "",
+					"cardSchedule": "April 26, 2022 - May 04, 2022"
 				}
 				// {
 				// 	"header": "Pre-Event | Workshop",
@@ -168,21 +175,21 @@ export const ISLGTS = {
 					"cardHeader": "Code Workshop Day 1",
 					"cardDesc": "Students will execute the implementation plan. Mentors will be available to provide remote guidance and help.",
 					"cardUser": "",
-					"cardSchedule": "November 23, 2021 | Full day"
+					"cardSchedule": "May 05, 2022 | Full day"
 				},
 				{
 					"header": "Event | Workshop",
 					"cardHeader": "Code Workshop Day 2",
 					"cardDesc": "Students will complete their implementation as per plan and test its working. They will finalize their submission package, create demo/presentation, review with mentors, and commit to their git repository. Mentors will be available to provide remote guidance and help.",
 					"cardUser": "",
-					"cardSchedule": "November 24, 2021 | Full day"
+					"cardSchedule": "May 06, 2022 | Full day"
 				},
 				{
 					"header": "Event | Workshop",
 					"cardHeader": "Submission",
 					"cardDesc": "Students will submit their code solutions.",
 					"cardUser": "",
-					"cardSchedule": "November 25, 2021 | 9:00 am - 6:00 pm IST"
+					"cardSchedule": "May 06, 2022 | 6:00 pm IST"
 				}
 			]
 		}
@@ -191,10 +198,10 @@ export const ISLGTS = {
 		"header": "Connect With Us!",
 		"profiles": [
 			{
-				"img": "madhuri",
-				"name": "Madhuri D Madhavan Pillai",
+				"img": "shweta",
+				"name": "Shweta Shandilya",
 				"social": "linkedin",
-				"link": "https://www.linkedin.com/in/madhuri-d-m-14b8a076/"
+				"link": "https://www.linkedin.com/in/shweta-shandilya-19a76414/"
 			},
 			{
 				"img": "srini",
@@ -208,36 +215,30 @@ export const ISLGTS = {
 				"social": "linkedin",
 				"link": "https://www.linkedin.com/in/charlykurian"
 			},
-			{
-				"img": "minitha",
-				"name": "Minitha Manoj",
-				"social": "linkedin",
-				"link": "https://www.linkedin.com/in/minitha-manoj-a6a559b/"
-			}, 
-			{
-				"img": "george",
-				"name": "George Oommen",
-				"social": "linkedin",
-				"link": "https://www.linkedin.com/in/george-oommen-902752/"
-			}, 
-			{
-				"img": "gayathri",
-				"name": "Gayathri P Subbaiah",
-				"social": "linkedin",
-				"link": "https://www.linkedin.com/in/gayathri-subbaiah-2409561/"
-			},
-			{
-				"img": "shweta",
-				"name": "Shweta Shandilya",
-				"social": "linkedin",
-				"link": "https://www.linkedin.com/in/shweta-shandilya-19a76414/"
-			},
+			// {
+			// 	"img": "minitha",
+			// 	"name": "Minitha Manoj",
+			// 	"social": "linkedin",
+			// 	"link": "https://www.linkedin.com/in/minitha-manoj-a6a559b/"
+			// }, 
 			{
 				"img": "latha",
 				"name": "Latha Raj",
 				"social": "linkedin",
 				"link": "https://www.linkedin.com/in/latha-raj-0168bb54/"
 			},
+			{
+				"img": "george",
+				"name": "George Oommen",
+				"social": "linkedin",
+				"link": "https://www.linkedin.com/in/george-oommen-902752/"
+			}, 
+			// {
+			// 	"img": "gayathri",
+			// 	"name": "Gayathri P Subbaiah",
+			// 	"social": "linkedin",
+			// 	"link": "https://www.linkedin.com/in/gayathri-subbaiah-2409561/"
+			// },
 			{
 				"img": "sudheer",
 				"name": "Sudheer Kareem",
@@ -251,6 +252,12 @@ export const ISLGTS = {
 				"link": "https://www.linkedin.com/in/ajith-a-philip-3277ba35/"
 			},
 			{
+				"img": "madhuri",
+				"name": "Madhuri D Madhavan Pillai",
+				"social": "linkedin",
+				"link": "https://www.linkedin.com/in/madhuri-d-m-14b8a076/"
+			},
+			{
 				"img": "vishal",
 				"name": "Vishal Chahal",
 				"social": "linkedin",
@@ -262,17 +269,29 @@ export const ISLGTS = {
 				"social": "linkedin",
 				"link": "https://www.linkedin.com/in/vinayakrishnankr/"
 			},
+			// {
+			// 	"img": "sanjana",
+			// 	"name": "Sanjana Mallikarjuna",
+			// 	"social": "linkedin",
+			// 	"link": "https://www.linkedin.com/in/sanjana-mallikarjuna/"
+			// },
+			// {
+			// 	"img": "shruti",
+			// 	"name": "Shruti Srivastava",
+			// 	"social": "linkedin",
+			// 	"link": "https://www.linkedin.com/in/shruti-srivastava-6505a646/"
+			// }
 			{
-				"img": "sanjana",
-				"name": "Sanjana Mallikarjuna",
+				"img": "edwin",
+				"name": "Edwin Jacob Baby",
 				"social": "linkedin",
-				"link": "https://www.linkedin.com/in/sanjana-mallikarjuna/"
+				"link": "https://www.linkedin.com/in/edwin-jacob-baby-98ab0716/"
 			},
 			{
-				"img": "shruti",
-				"name": "Shruti Srivastava",
+				"img": "deepa",
+				"name": "Deepa Pillai",
 				"social": "linkedin",
-				"link": "https://www.linkedin.com/in/shruti-srivastava-6505a646/"
+				"link": "https://www.linkedin.com/in/deepa-pillai-25b07065/"
 			}
 		]
 	},
@@ -331,7 +350,7 @@ export const ISLGTS = {
 				"content": [
 					{
 						"question": "When does registration begin and end?",
-						"answer": "Registration is currently open and ends on November 17, 2021 at 6:00 PM."
+						"answer": "Registration is currently open and ends on April 22, 2022 at 6:00 PM."
 					},
 					{
 						"question": "How do I register?",

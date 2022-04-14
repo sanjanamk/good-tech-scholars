@@ -252,6 +252,7 @@
 			align-items: center;
 			padding: $spacing-03 $spacing-05;
 			min-height: $spacing-10;
+			overflow: auto;
 			@include carbon--type-style('productive-heading-02');
 		}
 	}
