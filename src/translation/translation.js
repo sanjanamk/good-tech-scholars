@@ -49,21 +49,21 @@ export const ISLGTS = {
 		"text": "Students can choose either of two themes to come up with problem statements and solution ideas.",
 		"themes": [
 			{
-				"title": "Sustainable development for a better tomorrow",
+				"title": "Digitisation to ease access to social services",
 				"img": "sustainable",
-				"desc": "Smart applications that can aid sustainable development goals that balances use of natural resources and green technologies with urbanization, agricultural, and industrial needs.\n" +
-				"Sample problems / Sub-themes:\n" +
-				"- Improved monitoring and management of traffic (e.g. city traffic, drone traffic).\n" +
-				"- Improved monitoring and management of natural resources (e.g. smart cities, smart homes).\n" +
-				"- Urban expansion and service planning - sustainable communities."
+				"desc": "Today, you are able to pay bills and buy groceries sitting at the comfort of your home. Shouldn’t one be able to do even work involving government departments the same way? – for e.g., Land conversion, Name change, Pension application, Availing subsidies etc etc…? THINK!!! How can Technology solve this? What are YOUR ideas to achieve this for the commoners?. Especially the non-computer savvy ones..?"
 			},
 			{
-				"title": "Digital transformation for social change",
+				"title": "Innovation in the autonomous vehicle/robots industry",
 				"img": "digital",
-				"desc": "Unlock data and insights to transform user experiences, make services accessible, improve transparency, and assist stakeholder decision-making.\n" +
-				"Sample problems / Sub-themes:\n" +
-				"- Easier access to services in local language (e.g. railway reservation, RTO services).\n" +
-				"- Low technology barrier and work over mobile (e.g. managing informal workers, dealing with health / security emergencies)."
+				"desc": "Smart machines including autonomous vehicles, drones, robots, and connected machines have become part of personal and enterprise environments. They can help in many ways.\n" +
+					"- Revolutionise delivery of various goods and services\n" +
+					"- Perform monitoring and tracking\n" +
+					"- Improve life experience\n" +
+					"While they show a lot of promise there are major hurdles in adopting such smart machines. Some examples include:\n" +
+					"1. Managing the machines - keeping them ready, keep track of their health, scheduling maintenance, taking preventive actions, retiring them, etc.\n" +
+					"2. Managing their use: Scheduling them for use, monitoring/tracking them, geo-fencing them, making sure they avoid obstacles, managing their range, accommodate environmental conditions, making them energy efficient/carbon-neutral, etc.\n" + 
+					"3. Manage their security and privacy: When machines interact with humans or other machines, how do we ensure all the concerned parties are verified and trusted? How do we make sure a drone is not delivering a product to a wrong person? How do we ensure the robot is not keeping the package in the wrong shelf? How do we ensure a smart washing machine is not choosing the wrong wash cycle for heavy loads?"
 			}
 		]
 	},
