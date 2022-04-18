@@ -337,7 +337,7 @@ export const ISLGTS = {
 					},
 					{
 						"question": "Is attendance mandatory?",
-						"answer": "Yes, three days attendance is mandatory and 100% participation in all the team activities. Attendance will be recorded."
+						"answer": "Yes, two days attendance is mandatory and 100% participation in all the team activities. Attendance will be recorded."
 					},
 					{
 						"question": "What do I need to participate in this program?",
