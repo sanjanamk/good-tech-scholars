@@ -6,7 +6,7 @@ export const ISLGTS = {
 		"button": {
 			"text": "Register Now",
 			"link": "https://docs.google.com/forms/d/11_jSwehMzajshskVuXDMbZIeDvG6DKaz9Fn-9614wBU/edit",
-			"disable": false
+			"disable": true
 		},
 		"warning": "Registration closes on April 22, 2022"
 	},
